@@ -1,0 +1,10 @@
+nav {
+  background-color: #FFF;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,6 @@
+.logo {
+  display: flex;
+  align-items: center;
+  color: #555;
+  margin-left: 20px;
+}
