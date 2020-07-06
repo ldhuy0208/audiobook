@@ -1,0 +1,41 @@
+.avatar-account{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-right: 13px;
+  img{
+    height: 30px;
+    width: 30px;
+    border-radius: 99px;
+    margin-right: 5px;
+  }
+
+  span{
+    font-size: 1.3rem;
+    text-decoration: underline;
+  }
+
+
+  .dropdown-content{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(184, 184, 184, 0.548);
+    z-index: 1;
+    top: 50px;
+    right: 5px;
+    display: none;
+    transition: 0.3s;
+    button{
+      padding: 10px 30px;
+      text-transform: none;
+      font-weight: normal;
+      border-bottom: 1px solid rgb(245, 245, 245);
+      width: 100%;
+    }
+  }
+
+}
+
+.avatar-account:hover .dropdown-content{
+  display: block;
+}

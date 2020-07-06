@@ -1,0 +1,95 @@
+.category-manager {
+  .category-manager-table {
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    border-radius: 5px;
+    .top-header {
+      display: flex;
+      margin-bottom: 20px;
+      justify-content: space-between;
+      h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+      }
+      button {
+        background-color: rgb(0, 139, 74);
+        padding: 7px 10px;
+        outline: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+    }
+    .header {
+      li {
+        font-size: 1.6rem;
+      }
+    }
+    ul {
+      padding: 10px 0;
+      display: flex;
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+      li {
+        list-style: none;
+        font-size: 1.2rem;
+      }
+
+      .category-manager-checkbox {
+        flex-basis: 60px;
+        flex-shrink: 0;
+      }
+      .category-manager-title {
+        flex-basis: 50%;
+      }
+      .category-manager-order-number {
+        flex-basis: 25%;
+      }
+      .category-manager-edit {
+        flex-basis: 25%;
+        button {
+          background-color: rgb(0, 225, 255);
+          padding: 5px 7px;
+          outline: none;
+          border: none;
+          color: #fff;
+          cursor: pointer;
+          border-radius: 3px;
+        }
+      }
+    }
+    .category-manager-delete {
+      background-color: rgb(230, 0, 0);
+      padding: 7px 10px;
+      outline: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+      margin-top: 20px;
+    }
+  }
+}
+
+.category-add-modal{
+
+  width: 350px;
+  span{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    label{
+      font-size: 1.2rem;
+    }
+    input{
+      outline: none;
+      border: none;
+      border-bottom: 1px solid rgb(145, 145, 145);
+      padding: 4px 0;
+      font-size: 1.2rem;
+    }
+    
+  }
+}

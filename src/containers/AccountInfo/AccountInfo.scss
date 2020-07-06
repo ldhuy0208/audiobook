@@ -1,0 +1,35 @@
+.account-info {
+  margin-top: 30px;
+  width: 500px;
+  h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  div {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    span {
+      flex-basis: 40%;
+    }
+    input {
+      flex-basis: 60%;
+      padding: 3px 5px;
+    }
+    select {
+      padding: 3px 5px;
+      flex-basis: 60%;
+    }
+  }
+  button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 13px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+    background-color: #11b5e4;
+    border-radius: 3px;
+    color: #fff;
+  }
+}

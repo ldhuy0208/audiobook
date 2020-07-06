@@ -1,0 +1,47 @@
+.categories-in-add-book {
+  height: 120px;
+  overflow-y: auto;
+}
+.add-book-modal {
+  min-width: 550px;
+  .title-in-form {
+    margin-top: 15px;
+    font-weight: 600;
+  }
+}
+.add-audio {
+  display: flex;
+  flex-direction: column;
+  .audio-items {
+    background-color: rgb(248, 248, 248);
+    max-height: 120px;
+    overflow-y: auto;
+    .audio-item {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  button {
+    margin-left: 20px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    border-radius: 99px;
+    outline: none;
+    border: 1px solid #11b5e4;
+    background-color: transparent;
+    color: #11b5e4;
+    font-size: 1.5rem;
+  }
+  .delete-audio-button {
+    border: none;
+    color: red;
+  }
+  input[type="file"] {
+    width: 180px;
+  }
+  input[type="text"] {
+    min-width: 180px;
+  }
+}

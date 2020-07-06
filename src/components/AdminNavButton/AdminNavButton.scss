@@ -1,0 +1,13 @@
+.admin-nav-button{
+  display: flex;
+  padding-left: 30px;
+  &:hover{
+    background-color: #11B5E4;
+  }
+  span{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 13px 0;
+    text-transform: uppercase;
+  }
+}

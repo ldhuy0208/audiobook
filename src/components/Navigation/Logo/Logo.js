@@ -1,12 +1,13 @@
-import React from 'react'
-import './Logo.css'
+import React from "react";
+import "./Logo.css";
+import { Link } from "react-router-dom";
 
 function Logo() {
   return (
-    <span className="logo">
-      MY LOGO
-    </span>
-  )
+    <Link to="/home" className="logo">
+      AUBOOK
+    </Link>
+  );
 }
 
-export default Logo
+export default Logo;

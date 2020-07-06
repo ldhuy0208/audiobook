@@ -1,0 +1,55 @@
+.category-item {
+  height: 250px;
+  width: 200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px 0px rgb(201, 199, 199);
+}
+
+.gradient-color-0 {
+  background-color: #c7e9fb;
+  background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+}
+.gradient-color-1 {
+  background-color: #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+}
+.gradient-color-2 {
+  background-color: #9fa4c4;
+  background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+}
+.gradient-color-3 {
+  background-color: #ff4e00;
+  background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+.gradient-color-4 {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+.gradient-color-5 {
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+.gradient-color-6 {
+  background-color: #e899dc;
+  background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);
+}
+.gradient-color-7 {
+  background-color: #ffac81;
+  background-image: linear-gradient(315deg, #ffac81 0%, #ff928b 74%);
+}
+.gradient-color-8 {
+  background-color: #90d5ec;
+  background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+}
+.gradient-color-9 {
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+}

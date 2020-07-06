@@ -1,0 +1,13 @@
+.part-audio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  h3{
+    color: #11B5E4;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  };
+}

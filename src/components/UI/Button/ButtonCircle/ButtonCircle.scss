@@ -1,0 +1,20 @@
+.button-circle{
+  background-color: rgb(201, 201, 201);
+  outline: none;
+  padding: 4px 10px;
+  border-radius: 99px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #555
+}
+
+.button-danger{
+  border: 1px solid red;
+  color: red;
+}
+
+.button-success{
+  border: 1px solid #11B5E4;
+  background-color: #11B5E4;
+  color: #FFF;
+}

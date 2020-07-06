@@ -1,9 +1,11 @@
 header {
-  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), #FFF), url('../../assets/img/hero.jpg');
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 70%, #FFF), url('../../assets/img/hero.jpg');
   height: calc(100vh - 50px);
+  width: 100%;
   background-position: center;
   background-size: cover;
   margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 header div{

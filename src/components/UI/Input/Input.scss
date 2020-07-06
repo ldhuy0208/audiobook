@@ -1,0 +1,26 @@
+.input-box{
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  label{
+    padding: 7px;
+    i{
+      margin-right: 5px;
+    }
+  }
+  .input-normal{
+    padding: 7px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    min-width: 300px;
+  }
+  input[type="checkbox"]{
+    min-width: 30px;
+    max-width: 30px;
+  }
+}
+.textarea{
+ height: 100px;
+}

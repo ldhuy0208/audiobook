@@ -1,0 +1,42 @@
+.admin{
+  display: flex;
+  align-items: stretch;
+  min-height: 100vh;
+  .admin-left-nav{
+    background-color: #002d52;
+    flex-basis: 21%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    .active{
+      background-color: #11B5E4;
+      
+    }
+    a{
+      text-decoration: none;
+
+    }
+    .admin-logo{
+      margin-top: 20px;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      margin-bottom: 100px;
+      h1{
+        font-size: 1.8rem;
+        color: #11B5E4;
+      }
+  
+      span{
+        font-size: 1.2rem;
+        color: #fff;
+        margin-left: 5px;
+      }
+    }
+  }
+  .admin-content{
+    flex-basis: 79%;
+    padding: 20px;
+    background-color: #eee;
+  }
+}

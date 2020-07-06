@@ -1,0 +1,18 @@
+.title-line-bottom {
+  display: block;
+  margin: 15px 0 20px;
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+  }
+  h2::after {
+    content: "";
+    display: block;
+    width: auto;
+    height: 15px;
+    background-color: rgb(124, 227, 255);
+    margin-top: -15px;
+  }
+}

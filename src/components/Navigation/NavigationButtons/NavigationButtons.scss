@@ -1,0 +1,51 @@
+.navigation-buttons {
+  display: flex;
+  height: 100%;
+  margin-right: 20px;
+  a,
+  button {
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    color: #11b5e4;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 13px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+
+    &:hover {
+      background-color: rgb(197, 241, 255);
+    }
+  }
+
+}
+.modal-login {
+  form{
+    margin-bottom: 20px;
+  }
+  .login-via-facebook{
+    display: flex;
+    justify-content: center;
+    button{
+      cursor: pointer;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      i{
+        color: #1877F2;
+        transition: 0.2s;
+        font-size: 2.5rem;
+      }
+      i:hover{
+        color: #3b90ff;
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.all-category-box {
+  width: 70%;
+  margin-top: 80px;
+  .all-category {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      text-decoration: none;
+      margin: 15px 30px 15px 0;
+    }
+  }
+}
